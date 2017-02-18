@@ -30,8 +30,7 @@ header .navbar-default .navbar-brand, header .navbar-default .navbar-brand:hover
 	margin: 0;
 	padding: 15px 20px;
 	border: 1px solid #fff;
-	text-transform: uppercase;
-	font-family: 'Podkova', serif;
+	font-family: 'Roboto', serif;
 }
 header .navbar-default .navbar-brand a {
 	color: #FFF;
@@ -75,7 +74,7 @@ h1 {
 	font-size: 48px;
 	text-transform: uppercase;
 	color: #33313a;
-	font-family: 'Podkova', serif;
+	font-family: 'Roboto', serif;
 	font-weight: bold;
 }
 h2 {
@@ -83,7 +82,7 @@ h2 {
 	color: #1e1e1e;
 	font-weight: bold;
 	text-transform: uppercase;
-	font-family: 'Podkova', serif;
+	font-family: 'Roboto', serif;
 }
 h2 span {
 	color: #ec6c52;
@@ -107,7 +106,7 @@ h3 {
 	color: #1e1e1e;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-family: 'Podkova', serif;
+	font-family: 'Roboto', serif;
 }
 h3 a {
 	color: #33313a;
@@ -126,7 +125,7 @@ h3 small {
 }
 h4 {
 	font-size: 22px;
-	font-family: 'Podkova', serif;
+	font-family: 'Roboto', serif;
 	color: #2a2a2a;
 	font-weight: bold;
 }
@@ -139,7 +138,7 @@ h4 a:hover {
 }
 h5 {
 	font-size: 18px;
-	font-family: 'Podkova', serif;
+	font-family: 'Roboto', serif;
 	text-transform: uppercase;
 	color: #33313a;
 	font-weight: normal;
@@ -167,7 +166,7 @@ h2.with__margin2 {
 p.big-paragraph {
 	font-size: 18px;
 	color: #c3c3c3;
-	font-family: "Podkova", serif;
+	font-family: "Roboto", serif;
 }
 /* grey-info-block */
 .grey-info-block {
@@ -232,7 +231,7 @@ p.big-paragraph {
 }
 .recent-posts .col-md-3 .icon-item {
 	box-sizing: border-box;
-	font-family: "Podkova", serif;
+	font-family: "Roboto", serif;
 	-moz-box-sizing: border-box;
 	padding: 0px 0px 35px 25px;
 }
@@ -266,7 +265,7 @@ p.big-paragraph {
 	line-height: 50px;
 	padding: 0;
 	text-transform: uppercase;
-	font-family: "Podkova", serif;
+	font-family: "Roboto", serif;
 }
 /* Forms */
 .form-control, .form-control:focus {
@@ -291,7 +290,7 @@ p.big-paragraph {
 .navbar-default .navbar-nav>li {
 	padding-bottom: 10px;
 	margin: 0 10px 0 0;
-	font-family: "Podkova", serif;
+	font-family: "Roboto", serif;
 }
 .navbar-default .navbar-nav.second>li:last-child {
 	margin-right: 0px;
@@ -441,7 +440,7 @@ button.btn-primary:focus, .btn-default:focus, .btn-info:focus {
 	padding: 0;
 	font-size: 18px;
 	text-transform: uppercase;
-	font-family: "Podkova", serif;
+	font-family: "Roboto", serif;
 	color: #fff !important;
 }
 footer .btn.btn-primary {
@@ -459,7 +458,7 @@ footer .btn.btn-primary {
 	top: 50%;
 	margin-top: -150px;
 	font-size: 18px;
-	font-family: 'Podkova', serif;
+	font-family: 'Roboto', serif;
 	color: #949494;
 	text-shadow: 1px 1px 3px #666666;
 	text-transform: uppercase;
@@ -468,7 +467,7 @@ footer .btn.btn-primary {
 	font-size: 48px;
 	padding-bottom: 20px;
 	line-height: 48px;
-	font-family: 'Podkova', serif;
+	font-family: 'Roboto', serif;
 	color: #fff;
 }
 .carousel-caption h1 span {
@@ -587,7 +586,7 @@ footer .btn.btn-primary {
 .three-blocks p small {
 	position: relative;
 	bottom: 5px;
-	font-family: "Podkova", serif;
+	font-family: "Roboto", serif;
 }
 .orange {
 	color: #6dc5b5;
