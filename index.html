@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Reponsive HTML Template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Podkova:400,700' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header class="main__header">
+  <div class="container">
+    <nav class="navbar navbar-default" role="navigation"> 
+      <!-- Brand and toggle get grouped for better mobile display --> 
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <h1 class="navbar-brand pull-left"><a href="index.html">Sym<span>pation</span></a></h1>
+      </div>
+      <div class="navbar-right navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+            <ul class="dropdown-menu">
+              <li><a href="index_fixed.html">Home / Fixed</a></li>
+              <li><a href="index_with_blog.html">Home + Blog</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="typography.html">Typography</a></li>
+              <li><a href="shortcodes.html">Shortcodes</a></li>
+              <li><a href="store.html">Web Store</a></li>
+              <li><a href="blog.html">Blog & News</a></li>
+              <li><a href="tables.html">Tables</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+            </ul>
+          </li>
+          <li><a href="left_sidebar.html">left sidebar</a></li>
+          <li><a href="right_sidebar.html">right sidebar</a></li>
+          <li><a href="full_width.html">full page</a></li>
+          <li><a href="contact.html">contact us</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse --> 
+    </nav>
+  </div>
+</header>
+<section class="slider">
+  <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="item"> <img data-src="images/slider/image_1934x740.jpg" alt="First slide" src="images/slider/image_1934x740.jpg">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Vestibulum <span>elementum</span> condimentum nulla quis dictum condimentum</h1>
+            <p>Morbi eu accumsan magna, tristique eleifend purus. Sed ornare est metus, tempus ornare tellus.</p>
+            <p><a class="btn btn-default btn-lg" href="#" role="button">Buy Now</a><a class="btn btn-default btn-lg" href="#" role="button">More Info</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="item active"> <img data-src="images/slider/image_1934x740.jpg" alt="Second slide" src="images/slider/image_1934x740.jpg">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Quisque volutpat mattis eros. Nullam malesuada <span>erat ut turpis</span></h1>
+            <p>Integer vel egestas urna. Vestibulum elementum condimentum nulla quis dictum.</p>
+            <p><a class="btn btn-default btn-lg" href="#" role="button">Get Started</a><a class="btn btn-default btn-lg" href="#" role="button">Details</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon carousel-control-left"></span></a> <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon carousel-control-right"></span></a> </div>
+</section>
+<!--end of slider section-->
+<section class="main__middle__container">
+  <div class="container">
+    <div class="row">
+      <h2 class="text-center">Phasellus ultrices nulla quis nibh. Quisque a lectus. 
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </h2>
+      <p class="text-center big-paragraph">Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+    </div>
+    <div class="row no_padding icons__blocks">
+      <h3 class="heading"><span class="heading_bg"><span class="bordered_heading">features</span></span></h3>
+      <div class="col-md-4"> <img src="images/content__images/image_640x340.jpg" alt="image" class="img-responsive img-rounded">
+        <h3><a href="#">Digital Experience</a><br />
+          <small>Vestibulum auctor dapibus neque.</small></h3>
+        <p>Quisque et aliquam mauris. Nunc id cursus quam. Curabitur aliquam ornare ante et commodo. Nulla eu erat id massa egestas eleifend. Sed id venenatis.</p>
+        <p><a href="#" class="btn btn-default">Learn more</a></p>
+      </div>
+      <div class="col-md-4"> <img src="images/content__images/image_640x340.jpg" alt="image" class="img-responsive img-rounded">
+        <h3><a href="#">Web Publication</a><br />
+          <small>Vestibulum auctor dapibus neque.</small></h3>
+        <p>Quisque et aliquam mauris. Nunc id cursus quam. Curabitur aliquam ornare ante et commodo. Nulla eu erat id massa egestas eleifend. Sed id venenatis.</p>
+        <p><a href="#" class="btn btn-default">Learn more</a></p>
+      </div>
+      <div class="col-md-4"> <img src="images/content__images/image_640x340.jpg" alt="image" class="img-responsive img-rounded">
+        <h3><a href="#">Pixel Perfect</a><br />
+          <small>Vestibulum auctor dapibus neque.</small></h3>
+        <p>Quisque et aliquam mauris. Nunc id cursus quam. Curabitur aliquam ornare ante et commodo. Nulla eu erat id massa egestas eleifend. Sed id venenatis.</p>
+        <p><a href="#" class="btn btn-default">Learn more</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="text-center three-blocks">
+    <div class="container">
+      <div class="row">
+        <h3 class="heading white"><span class="heading_bg"><span class="bordered_heading">services</span></span></h3>
+        <div class="col-md-6">
+          <h3>Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. </h3>
+          <p><small>Phasellus ultrices nulla quis nibh. Quisque a lectus.</small></p>
+          <img src="images/content__images/image_460x200.jpg" alt="image" class="img-rounded img-responsive">
+          <p>Quisque et aliquam mauris. Nunc id cursus quam. Curabitur aliquam ornare ante et commodo. Nulla eu erat id massa egestas eleifend. Sed id venenatis.</p>
+          <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+        </div>
+        <div class="col-md-6">
+          <h3>Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. </h3>
+          <p><small>Phasellus ultrices nulla quis nibh. Quisque a lectus.</small></p>
+          <img src="images/content__images/image_460x200.jpg" alt="image" class="img-rounded img-responsive">
+          <p>Quisque et aliquam mauris. Nunc id cursus quam. Curabitur aliquam ornare ante et commodo. Nulla eu erat id massa egestas eleifend. Sed id venenatis.</p>
+          <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row grey-info-block text-center">
+    <div class="container">
+      <h2 class="">Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus.</h2>
+      <p class="">Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem. Suspendisse commodo ullamcorper magna.</p>
+      <p><a class="btn btn-info btn-lg" href="#" role="button">Get Started</a><a class="btn btn-info btn-lg" href="#" role="button">More Info</a></p>
+    </div>
+  </div>
+</section>
+<section class="prefooter text-center">
+  <div class="container">
+    <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <span>Donec odio.</span> Quisque volutpat mattis eros.</h2>
+    <p class="big-paragraph">Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+  </div>
+</section>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h3>About</h3>
+        <p>We strive to deliver a level of service that exceeds the expectations of our customers. <br />
+          <br />
+          If you have any questions about our products or services, please do not hesitate to contact us. We have friendly, knowledgeable representatives available seven days a week to assist you.</p>
+      </div>
+      <div class="col-md-3">
+        <h3>Tweets</h3>
+        <p><span>Tweet</span> <a href="#">@You</a><br />
+          Etiam egestas, ipsum posuere accumsan sollicitudin, nulla mauris volutpat sem, sit amet rutrum risus. </p>
+        <p><span>Tweet</span> <a href="#">@You</a><br />
+          Quisque porta tellus vitae adipiscing molestie. Mauris et lacus blandit, malesuada.</p>
+      </div>
+      <div class="col-md-3">
+        <h3>Mailing list</h3>
+        <p>Subscribe to our mailing list for offers, news updates and more!</p>
+        <br />
+        <form action="#" method="post" class="form-inline" role="form">
+          <div class="form-group">
+            <label class="sr-only" for="exampleInputEmail2">your email:</label>
+            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="your email:">
+          </div>
+          <button type="submit" class="btn btn-primary">subscribe</button>
+        </form>
+      </div>
+      <div class="col-md-3">
+        <h3>Social</h3>
+        <p>123 Business Way<br />
+          San Francisco, CA 94108<br />
+          USA<br />
+          <br />
+          Phone: (888) 123-4567<br />
+          Fax: (887) 123-4567<br />
+          <br />
+        </p>
+        <div class="social__icons"> <a href="#" class="socialicon socialicon-twitter"></a> <a href="#" class="socialicon socialicon-facebook"></a> <a href="#" class="socialicon socialicon-google"></a> <a href="#" class="socialicon socialicon-mail"></a> </div>
+      </div>
+    </div>
+    <hr>
+    <p class="text-center">&copy; Copyright ABC Company. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.min.js"></script> 
+<script type="text/javascript">
+
+$('.carousel').carousel({
+  interval: 3500, // in milliseconds
+  pause: 'none' // set to 'true' to pause slider on mouse hover
+})
+
+</script>
+</body>
+</html>
