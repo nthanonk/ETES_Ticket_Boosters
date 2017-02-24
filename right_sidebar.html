@@ -50,7 +50,17 @@
     </nav>
   </div>
 </header>
-<section class="main__middle__container">
+    <section class="main__middle__container" id="overlay">
+        <div class="container">
+            <div class="row">
+        <h1>Click anywhere to continue.</h1>
+                      <aside class="col-md-4">
+                          click here for more info
+                </aside>
+            </div>
+        </div>
+    </section>
+<section class="main__middle__container" id="info">
   <div class="container">
     <div class="row">
       <section class="col-md-8 main-content">
@@ -150,5 +160,22 @@
 <script type="text/javascript" src="js/jquery.min.js"></script> 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="js/bootstrap.min.js"></script>
+    <script>
+    $(function () {
+    var docHeight = $(document).height();
+    $("body").append("<div id='overlay'></div>");
+    $("#overlay").height(docHeight).css({
+        'opacity': 0.4,
+            'position': 'absolute',
+            'top': 0,
+            'left': 0,
+            'background-color': 'black',
+            'width': '100%',
+            'z-index': 5000
+    });
+    $('#overlay').click(function (e) {
+        this.remove();
+    });
+});</script>
 </body>
 </html>
