@@ -3,7 +3,7 @@ require "Config.php";
 
 echo "Test Server Page<br>";
 // all table in database
-$tables = ["users", "logins", "tickets", "orders"];
+$tables = ["logins", "orders", "securities", "tickets", "users"];
 foreach($tables as $table){
     // initialize data & key array
     $datas = array();
