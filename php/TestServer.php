@@ -2,8 +2,10 @@
 require "Config.php";
 
 echo "Test Server Page<br>";
+$datetime = date("m/d/y H:i:s");
+echo "Local Time: " . $datetime;
 // all table in database
-$tables = ["users", "logins", "tickets", "orders"];
+$tables = ["logins", "orders", "securities", "tickets", "users"];
 foreach($tables as $table){
     // initialize data & key array
     $datas = array();
