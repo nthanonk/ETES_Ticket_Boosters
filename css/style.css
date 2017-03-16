@@ -522,7 +522,7 @@ footer .btn.btn-primary {
 	line-height: 36px;
 }
 .three-blocks {
-	background: url('../images/image_1923x724.jpg') no-repeat;
+	background: url('../images/chad-kirchoff-184856.jpg') no-repeat;
 	background-size: 100% 100%;
 }
 /*main__middle__container*/
@@ -1271,4 +1271,23 @@ h4 {
 	margin: 0;
 	padding: 0;
 	width: 100%
+}
+
+input[type=text] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../images/searchicon.png');
+    background-position: 5px 7px; 
+    background-repeat: no-repeat;
+    padding: 12px 10px 12px 45px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 75%;
 }
