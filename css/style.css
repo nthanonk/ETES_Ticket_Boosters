@@ -1273,7 +1273,7 @@ h4 {
 	width: 100%
 }
 
-input[type=text] {
+input[type="search"] {
     width: 200px;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -1288,6 +1288,6 @@ input[type=text] {
     transition: width 0.4s ease-in-out;
 }
 
-input[type=text]:focus {
+input[type="search"]:focus {
     width: 75%;
 }

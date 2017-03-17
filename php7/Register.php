@@ -13,17 +13,17 @@ $datetime = date('YmdHis');
 $sql_insert_logins = "INSERT INTO `logins`(`login_user_id`, `login_user_password`) VALUES ('" . $user_id . "','" . $user_password . "')";
 $sql_insert_users = "INSERT INTO `users`(`user_id`, `user_name`, `user_email`, `user_phone`, `user_address`, `user_creditcard`, `user_create_stmp`) VALUES ('" . $user_id . "','" . $user_name . "','" . $user_email . "','" . $user_phone . "','" . $user_address. "','" . $user_creditcard . "','" . $datetime . "')";
 
-if(!mysql_query($sql_insert_logins, $conn)){
-    echo "Error: " . mysql_error($conn);
+if(!mysqli_query($conn, $sql_insert_logins)){
+    echo "Error: " . mysqli_error($conn);
 }
 else{
-    if(!mysql_query($sql_insert_users, $conn)){
-        echo "Error: " . mysql_error($conn);
+    if(!mysqli_query($conn, $sql_insert_users)){
+        echo "Error: " . mysqli_error($conn);
     }
     else{
-        header("Location: ../cs160/php7/Testserver.php");
+        header("Location: /cs160/php/Testserver.php");
     }
 }
 
-mysql_close($conn);
+mysqli_close($conn);
 ?>

@@ -4,6 +4,9 @@ $username = "root";
 $password = "";
 $database = "ticket_exchange";
 
+// set timezone
+date_default_timezone_set("America/Los_Angeles");
+
 // create connection
 $conn = mysqli_connect($servername, $username, $password);
 
